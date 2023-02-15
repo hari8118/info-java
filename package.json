@@ -1,11 +1,21 @@
 {
   "name": "infosec_bot",
   "version": "1.0.0",
-  "description": "A simple Telegram bot that uses ChatGPT API.",
+  "description": "A simple Telegram bot that uses openchatapi.",
   "main": "index.js",
   "dependencies": {
     "node-telegram-bot-api": "^0.53.0",
-    "@openai/api": "^0.6.3"
-  }
+    "@openai/api": "^0.7.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hari8118/info-java.git"
+  },
+  "author": "harshit yadav & ananya",
+  "license": "MIT"
 }
+
 
