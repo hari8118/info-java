@@ -6,10 +6,10 @@ const natural = require('natural');
 const { MongoClient } = require('mongodb');
 
 // Set up the Telegram bot
-const bot = new TelegramBot('YOUR_TELEGRAM_BOT_TOKEN', { polling: true });
+const bot = new TelegramBot('5884776359:AAHZ65ZwcHJZlRkncFTAYmHklyD3Z-0Zf1E', { polling: true });
 
-// Set up the OpenAI API client
-const openai = new OpenAI('YOUR_OPENAI_API_KEY');
+// Set up the OpenAI API client 
+const openai = new OpenAI('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');
 
 // Set up the natural language processing components
 const tokenizer = new natural.WordTokenizer();
@@ -58,7 +58,7 @@ bot.on('message', async (msg) => {
   let response = null;
   switch (intent) {
     case 'greeting':
-      response = 'Hello! How can I assist you today?';
+      response = 'Hello! I am Infosec. How can I assist you today?';
       break;
     case 'help':
       response = 'How can I help you?';
