@@ -1,0 +1,4 @@
+"dependencies": {
+  "node-telegram-bot-api": "^0.53.0",
+  "@openai/api": "^0.6.3"
+}
