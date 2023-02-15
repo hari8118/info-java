@@ -16,7 +16,7 @@ const tokenizer = new natural.WordTokenizer();
 const stemmer = natural.PorterStemmer;
 
 // Set up the MongoDB client
-const client = new MongoClient('YOUR_MONGODB_CONNECTION_STRING');
+const client = new MongoClient('mongodb+srv://sojopa5387:<3iKuAKx8uU3Xhfjh>@cluster0.dmbxoxh.mongodb.net/?retryWrites=true&w=majority');
 
 // Connect to the MongoDB database
 client.connect((err) => {
