@@ -1,21 +1,20 @@
 {
-  "name": "infosec_bot",
+  "name": "Infosec_bot",
   "version": "1.0.0",
-  "description": "A simple Telegram bot that uses openchatapi.",
-  "main": "index.js",
-  "dependencies": {
-    "node-telegram-bot-api": "^0.53.0",
-    "@openai/api": "^0.7.2"
-  },
+  "description": "MSCIS ai bot ",
+  "main": "bot.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hari8118/info-java.git"
-  },
-  "author": "harshit yadav & ananya",
-  "license": "MIT"
+  "keywords": [
+    "nodejs",
+    "ai",
+    "telegram"
+  ],
+  "author": "Abhishek",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0",
+    "openai": "^3.1.0"
+  }
 }
-
-
