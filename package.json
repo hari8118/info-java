@@ -2,7 +2,7 @@
   "name": "Infosec_bot",
   "version": "1.0.0",
   "description": "MSCIS ai bot ",
-  "main": "bot.js",
+  "main": "README.md",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,7 @@
     "ai",
     "telegram"
   ],
-  "author": "Abhishek",
+  "author": "harshit & ananya",
   "license": "ISC",
   "dependencies": {
     "node-telegram-bot-api": "^0.61.0",
